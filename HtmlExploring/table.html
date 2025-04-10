@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+        table{
+           
+            border-collapse:collapse
+        }
+        td, th {
+            border:1px solid salmon
+        }
+        nav > ul {
+            display:flex;
+
+        }
+        nav li{
+            list-style: none;
+            margin-right:5px;
+        }
+        nav li a{
+            text-decoration:none;
+        }
+        nav li:hover{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog </a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <table>
+        <caption>Employee Salary Table</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Steve Jobs</td>
+                <td>CEO</td>
+                <td>$43890324</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mark Jukerberg</td>
+                <td>CEO</td>
+                <td>$83850341</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee: </td>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+    </main>
+</body>
+</html>

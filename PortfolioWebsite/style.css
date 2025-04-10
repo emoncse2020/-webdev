@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/*font-family: "Open Sans", sans-serif;  */
+
+/* Shared Style */
+.text-primary {
+  color: rgb(253, 110, 10);
+}
+
+.dark1 {
+  color: rgb(71, 71, 71);
+}
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 18px 35px;
+  border: none;
+  background: rgb(253, 110, 10);
+}
+
+.btn-banner {
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 17px;
+  border: 1px solid rgb(253, 110, 10);
+  margin-left: 30px;
+}
+
+.header {
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* Nav styles */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* header banner */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-content {
+  /* Group 11 */
+  /* position: absolute; */
+  width: 585px;
+  height: 356px;
+  margin: 0, 35px, 0, 230px;
+  margin-left: 230px;
+  /* left: 230px;
+right: 785px;
+top: 297px;
+bottom: 3603px; */
+}
+
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-greetings {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner-img {
+}
+
+.banner-pro-pic {
+  /* 1699492_P3OLGJ1 1 */
+  /* position: absolute; */
+  width: 584px;
+  height: 676px;
+  /* left: 978px;
+  right: 38px;
+  top: 161px;
+  bottom: 3419px; */
+}
+
+/* main Styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about styles */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-title {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.item-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* What I do sec */
+
+.i-do {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin-top: 130px;
+  /* Frame 1 */
+  /* position: relative; */
+  /* width: 1600px; */
+  /* height: 4256px; */
+}
+.i-items {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.i-item {
+  padding: 30px 33px;
+  border-radius: 5px;
+  margin-right: 24px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.i-img {
+  text-align: left;
+}
+
+.i-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.i-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* resume sec */
+.resume {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.res-content {
+  text-align: start;
+  display: flex;
+  /* margin-right: 101px; */
+}
+.edu-con {
+  margin-right: 71px;
+}
+
+.cv-btn {
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 113px;
+  padding: 130px 230px;
+}
+
+.connect {
+  width: 50%;
+}
+.form-b {
+  display: block;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(255, 255, 255);
+
+  width: 461px;
+  height: 64px;
+}
+
+textarea {
+  width: 461px;
+  height: 180px;
+}

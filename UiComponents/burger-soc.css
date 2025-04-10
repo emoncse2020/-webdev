@@ -1,0 +1,15 @@
+.hero-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.img-con {
+  width: 50%;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
